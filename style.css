@@ -5,7 +5,7 @@ body{
 
 
 header{
-    width: ;
+    
     height: 70px;
 
     display: flex;
@@ -329,15 +329,14 @@ h1{
 
     display: grid;
 
-    margin: 30px;
 }
 .sidenav{
 
 
     max-width: 1200px;
     width: auto;
-    max-height:40vh;
-    height: auto;
+    max-height:35vh;
+
     align-items: center;
     background-color: rgb(241, 240, 240);
 
@@ -352,8 +351,8 @@ h1{
 
     max-width: 1200px;
     width: auto;
-    max-height:40vh;
-    height: auto;
+    max-height:35vh;
+
     align-items: center;
     background-image: linear-gradient(to top, rgb(23, 139, 235), rgb(148, 203, 255));
      box-shadow: 0px 5px 20px  rgba(0, 53, 91, 0.553);
@@ -367,6 +366,7 @@ h1{
 .item{
     max-width: 300px;
     width: auto;
+    min-width: 200px;
     max-height: 300px;
     height: auto;
     background-color: rgb(241, 240, 240);
@@ -381,6 +381,7 @@ h1{
 .item:hover{
     max-width: 300px;
     width: auto;
+     min-width: 200px;
     max-height: 300px;
     height: auto;
     background-color: rgb(241, 240, 240);
@@ -402,6 +403,7 @@ h1{
 .mid{
     max-width: 300px;
  width: auto;
+  min-width: 200px;
     max-height: 150px;
     height: auto;
 
@@ -413,6 +415,7 @@ h1{
 .wp{
         max-width: 300px;
  width: auto;
+  min-width: 200px;
     max-height: 150px;
     height: auto;
 
@@ -423,6 +426,7 @@ h1{
 .git{
             max-width: 300px;
  width: auto;
+  min-width: 200px;
     max-height: 150px;
     height: auto;
 
@@ -433,6 +437,7 @@ h1{
 .inst{
             max-width: 300px;
  width: auto;
+    min-width: 200px;
     max-height: 150px;
     height: auto;
 
@@ -443,6 +448,7 @@ h1{
 .wp:hover{
             max-width: 300px;
  width: auto;
+  min-width: 200px;
     height: 150px;
     border: 2px solid rgb(38, 196, 38);
     border-radius: 10px;
@@ -456,6 +462,7 @@ h1{
 .git:hover{
           max-width: 300px;
  width: auto;
+  min-width: 200px;
     max-height: 150px;
     height: auto;
     border: 2px solid rgb(51, 51, 51);
@@ -471,6 +478,7 @@ h1{
 .inst:hover{
              max-width: 300px;
  width: auto;
+  min-width: 200px;
     max-height: 150px;
     height: auto;
     border: 2px solid rgb(243, 25, 98);
@@ -499,9 +507,58 @@ h1{
 .cart{
     width: 100%;
     max-width: 1200px;
-    max-height: 40vh;
-    height: auto;
+    max-height: 35vh;
+
 
 }
+
+}
+
+
+
+@media (max-width: 700px){
+
+    .container{
+
+        display: block;
+        margin: 0 auto;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        align-content: center;
+
+
+    }
+
+    .sidenav{
+
+        margin: 0 auto;
+        
+        height: 45vh;
+
+    }
+
+    .cart{
+
+        height: 45vh;
+
+    }
+
+    .item{
+
+        margin: 0 auto;
+        margin-top: 30px;
+
+
+    }
+
+
+    .mid{
+
+        margin: 0 auto;
+        margin-top: 30px;
+        
+    }
+
 
 }
