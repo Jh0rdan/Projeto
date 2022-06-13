@@ -259,7 +259,7 @@ section.modulo.parallax h1{
   }
 
   section.module.parallax h1 {
-    font-size: 36px;
+    font-size: 16px;
   }
 
   .item {
@@ -298,7 +298,7 @@ section.modulo.parallax h1{
   }
   .sobre{
     display: block;
-    margin: 0 25%;
+    margin: auto 25%;
     
   }
 
@@ -327,5 +327,77 @@ section.modulo.parallax h1{
   text-align: center;
   margin-bottom: 150%;
 }
+
+}
+
+
+@media all and (max-width: 620px) {
+  section.module h2 {
+    font-size: 26px;
+  }
+  .module h2, p{
+    padding: 0 6px;
+  }
+
+  .container{
+    margin:0;
+    padding:0;
+  }
+  .par{
+    margin: 0 auto;
+    justify-content: center;
+  }
+  .sobre{
+    display: block;
+    margin: auto 10%;
+    
+  }
+
+  section.module.parallax h1 {
+    font-size: 36px;
+  }
+
+  .item {
+  width: 250px;
+  height: auto;
+  margin: 20px;
+  box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.2);
+  
+}
+
+  .item-2 {
+  width: 250px;
+  min-height: 400px;
+  height: auto;
+  margin: 20px;
+  box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.2);
+ 
+}
+
+.serv{
+  text-align: center;
+  margin-bottom: 210%;
+}
+
+.logo{
+  display: block;
+  margin: 0 auto;
+
+  width: 100vw !important;
+  height: 100vh !important;
+  background-color: rgba(25, 102, 175, 0.555);
+  position: absolute;
+  z-index: 999;
+}
+
+.image{
+  margin: 10px;
+  padding: 0;
+  margin-top: 25%;
+}
+.lg-im{
+  margin: 10px;
+}
+
 
 }
