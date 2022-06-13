@@ -171,10 +171,48 @@ main{
     justify-content: center;
     background-color: white;
     border-radius: 50px;
-      box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4);
 
 }
 
+.wp:hover{
+    max-width: 50px;
+    height: 50px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+
+    background-color: white;
+    border-radius: 50px;
+      box-shadow:inset 3px 3px 3px rgba(21, 141, 253, 0.808);
+
+}
+
+.git:hover{
+    max-width: 50px;
+    height: 50px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+
+    background-color: white;
+    border-radius: 50px;
+     box-shadow:inset 3px 3px 3px rgba(21, 141, 253, 0.808);
+}
+
+
+
+.inst:hover{
+     max-width: 50px;
+    height: 50px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border-radius: 50px;
+     box-shadow: inset 3px 3px 3px rgba(21, 141, 253, 0.808);
+
+}
 
 
 section.modulo p{
