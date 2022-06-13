@@ -63,6 +63,14 @@ img{
   text-shadow: 10px 10px 20px black;
   font-family: BDP-Birgula;
 }
+
+.lg-im-2{
+  color: white;
+  font-size: 30px;
+  margin: 20px;
+  font-family: BDP-Birgula;
+}
+
 .sobre h1,h2,h3,h4,p{
 font-family: LG;
 font-size: 20px;
