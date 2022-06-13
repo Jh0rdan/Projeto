@@ -399,5 +399,15 @@ section.modulo.parallax h1{
   margin: 10px;
 }
 
+.mid{
+  display: block;
+  margin: 10px;
+  position: fixed;
+  z-index: 1000;
+  right: 5px;
+  bottom: 10px;
+
+
+}
 
 }
