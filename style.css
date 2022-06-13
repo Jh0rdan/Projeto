@@ -263,18 +263,69 @@ section.modulo.parallax h1{
   }
 
   .item {
-  width: 400px;
+  min-width: 250px;
   height: auto;
   margin: 20px;
   box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.2);
 }
 
   .item-2 {
-  width: 400px;
+  min-width: 250px;
   min-height: 400px;
   height: auto;
   margin: 20px;
   box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.2);
+}
+
+}
+
+
+@media all and (max-width: 620px) {
+  section.module h2 {
+    font-size: 26px;
+  }
+  .module h2, p{
+    padding: 0 6px;
+  }
+
+  .container{
+    margin:0;
+    padding:0;
+  }
+  .par{
+    margin: 0 auto;
+    justify-content: center;
+  }
+  .sobre{
+    display: block;
+    margin: 0 25%;
+    
+  }
+
+  section.module.parallax h1 {
+    font-size: 36px;
+  }
+
+  .item {
+  width: 250px;
+  height: auto;
+  margin: 20px;
+  box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.2);
+  
+}
+
+  .item-2 {
+  width: 250px;
+  min-height: 400px;
+  height: auto;
+  margin: 20px;
+  box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.2);
+ 
+}
+
+.serv{
+  text-align: center;
+  margin-bottom: 150%;
 }
 
 }
