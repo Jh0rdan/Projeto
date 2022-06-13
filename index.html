@@ -1,46 +1,96 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Nimara</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css"/>
+  <title>Nimara</title>
+  <!--
+    Projeto Site Nimara com Parallax
+    Feito para Estudar
+  -->
 </head>
 <body>
-   <header>
-    <div class="cont">
-        <div class="logo">
-            <img id="img0" src="IMGs/LOGO.png" alt=""> </div>
-        <ul>
-            <li>Home</li>
-            <li>Sobre</li>
-        </ul>
-    </div>
-    </header>
+  
+  <div class="wrapper">
+    <main>
+      <section class="modulo parallax parallax-1">
+       <div class="logo">
+          <h1> <img class="image img-para" data-rellax-speed="-4" src="Imagens/LOGO.png" alt=""></h1>
+          <h1 class="lg-im img-para" data-rellax-speed="-4">Nimara</h1>
+       </div> 
+      </section>
 
+      <section class="modulo conteudo">
+        <div class="container">
+          <h2>PORQUE ESCOLHER A NIMARA?</h2>
+             <div class="par">
+                <div class="sobre">
 
-    <section class="container">
-        <div class="sidenav">
-            <img class="cart" src="IMGs/cart.jpg" alt="">
+                 
+        <div class="item"><img class="itmg" src="Imagens/1.jpg" alt="">
+          <p>Contamos com amplo horario de atendimento para melhor atener voce cliente.</p>
         </div>
-        <div class="item"><img class="itmg" src="IMGs/1.jpg" alt="">Digital Marketing</div>
-        <div class="item"><img class="itmg" src="IMGs/2.jpg" alt="">Ideas e Plans</div>
-        <div class="item"><img class="itmg" src="IMGs/3.jpg" alt="">Promps e Strategies</div> 
-         <div class="mid">
-         <div class="wp"><a href="https://contate.me/Nimara" target="-blank"><img class="i" src="IMGs/WhatsApp.png" alt=""></a></div>
-         </div>
-         <div class="mid">
-         <div class="git"><a href="https://github.com/Jh0rdan/Projeto" target="_blank"><img class="i" src="IMGs/Github.png" alt=""></a></div>
-         </div>
-         <div class="mid">
-         <div class="inst"><a href="https://www.instagram.com/nicolas_radaelli/" target="_blank"><img class="i" src="IMGs/Instagram.png" alt=""></a></div>
-         </div>
-   
-    </section>
+        <div class="item"><img class="itmg" src="Imagens/2.jpg" alt="">
+        <p>Consultoria de maraca com tecnicos especializados para o seu negocio.</p>
+        </div>
+        <div class="item"><img class="itmg" src="Imagens/3.jpg" alt="">
+        <p>Propostas personalizadas para se adequar com seu perfil de trabalho.</p>
+        </div> 
+                  </div> 
+                </div>
+             </div>
 
-    <div class="footer"></div>
+        </div>
+      </section>
+
+      <section class="modulo parallax parallax-2">
+        <div class="logo-2"><h1 class="lg-im serv img-para" data-rellax-speed="-2">Servicos</h1></div>
+      </section>
+
+      <section class="modulo conteudo">
+        <div class="container">
+             <div class="par">
+                <div class="sobre">
+
+                 
+        <div class="item"><img class="itmg" src="Imagens/Marketing.JPG" alt="">
+          <p>E laboracao de proutos de marketing, controle de trafego e muito mais.</p>
+        </div>
+        <div class="item"><img class="itmg" src="Imagens/Dev.JPG" alt="">
+        <p>Desenvolvimento e manutencao de Sites e controle de dominios com as melhores tecnologias.</p>
+        </div>
+        <div class="item"><img class="itmg" src="Imagens/Consul.JPG" alt="">
+        <p>Consultoria de marca, marketing/trafego, tudo para melhor atendelo.</p>
+        </div> 
+                  </div> 
+                </div>
+             </div>
+      </section>
+
+      <section class="modulo parallax  parallax-3">
+        <div class="logo-3"><h1 class="lg-im serv img-para" data-rellax-speed="-1">Contatos</h1></div>
+      </section>
+
+      <section class="modulo conteudo">
+        <div class="container">
+             <div class="par">
+                <div class="sobre">
+                    <div class="mid">
+         <div class="wp"><a href="https://contate.me/Nimara" target="-blank"><img class="i" src="Imagens/WhatsApp.png" alt=""></a></div>
+         <div class="git"><a href="https://github.com/Jh0rdan/Projeto" target="_blank"><img class="i" src="Imagens/Github.png" alt=""></a></div>
+         <div class="inst"><a href="https://www.instagram.com/nicolas_radaelli/" target="_blank"><img class="i" src="Imagens/Instagram.png" alt=""></a></div>
+                  </div> 
+                </div>
+             </div>
+      </section>
+
+    </main>
+  </div>
 
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.js"></script>
+<script type="text/javascript" src="jse.js"></script>
 </body>
 </html>
