@@ -33,7 +33,17 @@ h1,h2,h3,h4,h5,h6{
   position: absolute;
 }
 
+.logo-2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 
+  width: 100vw !important;
+  height: 100vh !important;
+  background-color: rgba(40, 148, 250, 0.822);
+  position: absolute;
+}
 
 
 
