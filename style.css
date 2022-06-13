@@ -112,20 +112,53 @@ main{
   width: 500px;
   height: auto;
   margin: 20px;
-  box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.2);
-}
-.item h3,p{
-  color: rgb(66, 66, 66);
-  font-family: c;
+  transition-property: background-color, border-radius, color;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+
 }
 
+.item:hover {
+  width: 500px;
+  height: auto;
+  margin: 20px;
+  background-color: #0f8bff;
+  border-radius: 20px;
+  color: white;
+
+}
+
+
+.item-2 {
+  width: 500px;
+  height: auto;
+  margin: 20px;
+  transition-property: background-color, border-radius, color;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+
+}
+
+.item-2:hover {
+  width: 500px;
+  height: auto;
+  margin: 20px;
+  background-color: #0f8bff;
+  border-radius: 20px;
+  color: white;
+
+}
+
+
+
 .mid{
+  animation: pulinhos 1s ease alternate infinite;
   display: block;
-  margin: 30px;
+  margin: 5px;
   position: fixed;
   z-index: 1000;
-  right: 10px;
-  bottom: 10px;
+  right: 5px;
+  bottom: 15px;
 
 
 }
@@ -175,43 +208,11 @@ main{
 
 }
 
-.wp:hover{
-    max-width: 50px;
-    height: 50px;
-    margin: 10px;
-    display: flex;
-    justify-content: center;
 
-    background-color: white;
-    border-radius: 50px;
-      box-shadow:inset 3px 3px 3px rgba(21, 141, 253, 0.808);
-
-}
-
-.git:hover{
-    max-width: 50px;
-    height: 50px;
-    margin: 10px;
-    display: flex;
-    justify-content: center;
-
-    background-color: white;
-    border-radius: 50px;
-     box-shadow:inset 3px 3px 3px rgba(21, 141, 253, 0.808);
-}
-
-
-
-.inst:hover{
-     max-width: 50px;
-    height: 50px;
-    margin: 10px;
-    display: flex;
-    justify-content: center;
-    background-color: white;
-    border-radius: 50px;
-     box-shadow: inset 3px 3px 3px rgba(21, 141, 253, 0.808);
-
+@keyframes pulinhos{
+  to {
+    transform: translateY(30px);
+  }
 }
 
 
@@ -304,16 +305,32 @@ section.modulo.parallax h1{
   min-width: 250px;
   height: auto;
   margin: 20px;
-  box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.2);
+  
 }
+
+
+.item:hover {
+  min-width: 250px;
+  height: auto;
+  margin: 20px;
+  
+}
+
 
   .item-2 {
   min-width: 250px;
   min-height: 400px;
   height: auto;
   margin: 20px;
-  box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.2);
 }
+
+ .item-2:hover {
+  min-width: 250px;
+  min-height: 400px;
+  height: auto;
+  margin: 20px;
+}
+
 
 }
 
@@ -348,18 +365,37 @@ section.modulo.parallax h1{
   width: 250px;
   height: auto;
   margin: 20px;
-  box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.2);
+  
   
 }
+
+  .item:hover {
+  width: 250px;
+  height: auto;
+  margin: 20px;
+  
+  
+}
+
 
   .item-2 {
   width: 250px;
   min-height: 400px;
   height: auto;
   margin: 20px;
-  box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.2);
+  
  
 }
+
+  .item-2:hover {
+  width: 250px;
+  min-height: 400px;
+  height: auto;
+  margin: 20px;
+  
+ 
+}
+
 
 .serv{
   text-align: center;
@@ -369,7 +405,7 @@ section.modulo.parallax h1{
 }
 
 
-@media all and (max-width: 620px) {
+@media all and (max-width: 420px) {
   section.module h2 {
     font-size: 26px;
   }
@@ -399,7 +435,7 @@ section.modulo.parallax h1{
   width: 250px;
   height: auto;
   margin: 20px;
-  box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.2);
+ 
   
 }
 
@@ -408,7 +444,22 @@ section.modulo.parallax h1{
   min-height: 400px;
   height: auto;
   margin: 20px;
-  box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.2);
+ 
+}
+
+  .item:hover {
+  width: 250px;
+  height: auto;
+  margin: 20px;
+ 
+  
+}
+
+  .item-2:hover {
+  width: 250px;
+  min-height: 400px;
+  height: auto;
+  margin: 20px;
  
 }
 
@@ -435,17 +486,6 @@ section.modulo.parallax h1{
 }
 .lg-im{
   margin: 10px;
-}
-
-.mid{
-  display: block;
-  margin: 5px;
-  position: fixed;
-  z-index: 1000;
-  right: 5px;
-  bottom: 10px;
-
-
 }
 
 }
