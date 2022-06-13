@@ -401,7 +401,7 @@ section.modulo.parallax h1{
 
 .mid{
   display: block;
-  margin: 10px;
+  margin: 5px;
   position: fixed;
   z-index: 1000;
   right: 5px;
